@@ -11,7 +11,6 @@ LaTeX
 				\edef\gamepath{"C:/Users/pinum314/Documents/GitHub/guildcamp3"}
 				in this file (but with your path name)
 			
-
 	Mac:
 		something. ask Ghost
 
@@ -22,3 +21,60 @@ GameTeX
 	Stuff doesn't exist until added to a character or a place
 	Everything is defined in lists
 	Sometimes you need to make a file with it too
+	Copy existing files and use them as templates
+	
+	
+Groups of people (factions)
+---------------------------------------------------------------------------------------------
+technology									fantasy
+
+scientists									mages
+politicians									nobles
+special ops									rogues
+technician									religious leader (paladin) 
+											servant
+
+
+one of the tech people is a medic/doctor
+
+Plots
+---------------------------------------------------------------------------------------------
+	Traitors
+	-----------------------------------------------------------------------------------------
+		People who discover they have magical powers
+			probably a politician 
+		People who can't use magic (born without it)
+			a noble who was learned but not having magic 
+	Double based
+	-----------------------------------------------------------------------------------------
+		Someone wants to destroy their double
+		Someone wants to help their double
+		Someone who is jealous of their double 
+		Hasn't known mom since a child, and finds a new version in the new world
+	Doesn't want to die a virgin/friendless
+	-----------------------------------------------------------------------------------------
+		Mage doesn't want to die without friends as they were hidden away
+		Scientist doesn't want to die a virgin 
+	Nutcase
+	-----------------------------------------------------------------------------------------
+		Religious guy wants the world to end 
+		Guy has solution to save everyone's lives but does switch-a-roo and needs to convince
+	Other
+	-----------------------------------------------------------------------------------------	
+		Noble wants to become the Paladin to get their useful powers
+		
+Stuff people do 
+---------------------------------------------------------------------------------------------
+Scientists: 
+	create a gadget to test the items
+Mages: 
+	set up a ritual to test the items
+Politicians:
+Nobles:
+    wants to become the Paladin 
+Special ops:
+Rogues:
+Technician:
+Religious leader:
+Servant:
+	
