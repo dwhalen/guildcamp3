@@ -1,0 +1,24 @@
+LaTeX
+---------------------------------------------------------------------------------------------
+	Windows:
+		Github client (from Github's site)
+		MiKTeX
+		TeXStudio
+			go to Options->TeXStudio and add (with your file name)
+				-include-directory "C:\Users\pinum314\Documents\GitHub\guildcamp3\LaTeX"
+				to PdfLaTeX
+			duplicate the file guildcamp3.cls. Rename it guildcamp3_path.cls Make only the line
+				\edef\gamepath{"C:/Users/pinum314/Documents/GitHub/guildcamp3"}
+				in this file (but with your path name)
+			
+
+	Mac:
+		something. ask Ghost
+
+		
+GameTeX
+---------------------------------------------------------------------------------------------
+	Most notebooks want to be green notebooks
+	Stuff doesn't exist until added to a character or a place
+	Everything is defined in lists
+	Sometimes you need to make a file with it too

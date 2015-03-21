@@ -1,0 +1,5 @@
+LaTeX/guildcamp3_path.cls
+*.aux
+*.pdf
+*.gz
+*.log
