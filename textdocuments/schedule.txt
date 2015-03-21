@@ -1,0 +1,189 @@
+Timeline for camp
+---------------------------------------------------------------------------------------------
+Thursday: figure out logistics
+Friday: figure out technology
+...
+Next Thursday: send out an application
+Next Friday: finalize game design and have written 10% of sheets
+...
+Following Wednesday: produce game
+Following Thursday: packet handout
+Following Friday: questions
+Following Saturday: run game
+
+Meeting schedule
+---------------------------------------------------------------------------------------------
+Friday: 8 PM
+Saturday: 1 PM
+Sunday: none
+Monday: 6 PM
+Tuesday: 8 PM
+Wednesday: 8 PM
+Thursday: 8 PM
+
+Scenarios/ideas
+---------------------------------------------------------------------------------------------
+Arkham or arkham
+SCP foundation
+Superhero Reunion
+HS Prom from space
+Elven freedom
+Carol catastrophe
+Holiday collision
+Parallel Worlds
+Clueless murder
+Disney
+
+Parallel Worlds
+---------------------------------------------------------------------------------------------
+Tech vs fantasy
+Worlds are ending
+One world can survive if two objects are brought together - multiple items from each side
+Someone delusional thinks they can save the world
+The true solution is near impossible/requires true sacrifice
+Way for everyone to survive is to switch worlds
+
+Groups of people (factions)
+---------------------------------------------------------------------------------------------
+technology									fantasy
+
+scientists									mages
+politicians									nobles
+special ops									rogues
+technician									religious leader (paladin) 
+											servant
+
+
+one of the tech people is a medic/doctor
+
+Plots
+---------------------------------------------------------------------------------------------
+	Traitors
+	-----------------------------------------------------------------------------------------
+		People who discover they have magical powers
+			probably a politician 
+		People who can't use magic (born without it)
+			a noble who was learned but not having magic 
+	Double based
+	-----------------------------------------------------------------------------------------
+		Someone wants to destroy their double
+		Someone wants to help their double
+		Someone who is jealous of their double 
+		Hasn't known mom since a child, and finds a new version in the new world
+	Doesn't want to die a virgin/friendless
+	-----------------------------------------------------------------------------------------
+		Mage doesn't want to die without friends as they were hidden away
+		Scientist doesn't want to die a virgin 
+	Nutcase
+	-----------------------------------------------------------------------------------------
+		Religious guy wants the world to end 
+		Guy has solution to save everyone's lives but does switch-a-roo and needs to convince
+	Other
+	-----------------------------------------------------------------------------------------	
+		Noble wants to become the Paladin to get their useful powers
+		
+Stuff people do 
+---------------------------------------------------------------------------------------------
+Scientists: 
+	create a gadget to test the items
+Mages: 
+	set up a ritual to test the items
+Politicians:
+Nobles:
+    wants to become the Paladin 
+Special ops:
+Rogues:
+Technician:
+Religious leader:
+Servant:
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------
+|                                  |                     -034                               |
+|     starting things  fantasy    \                                                         |
+|                                  \                                                        |
+|                                  |                    Barracks                            |
+------|                            |                                                        |
+      |                            |                                                        |
+	  |                            |                                                        |
+      |                            |                                                        |
+      |                            ---------\  ----------------------------------------------
+	  |                                      \                 |           -032             |
+	  |                                                        |                            |
+	  |                                                        /                            |
+	  |                                                       /          Paladin            |
+	  |                                                        |           Tech             |
+	  |                                                        |                            |
+	  |                                      /                 |                            |
+	  |                            ---------/  ---------------------------------------------
+      |                            |                      -030                              |
+	  |                            |                                                        |
+	  |                            |     Armory                                             |
+	  |                            |                                                        |
+	  |                            |                                                        |
+	  |                            |                                                        |
+	  |                            |                                                        |                  |--------------------------------------------|
+	  |                            |                                                        |                  |                                            |
+	  |                            ---------\  ----------------------------------------------------------------|                                          |
+	  |                                      \                                                                 \                                            |
+	  |                                                                                                         \                                           |
+	  |                                                                                                         /                                           |
+	  |                                                                                                        /                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+      |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                   -002                     |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+	  |                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                               ----------------|                                            |
+-------                                                                                        ----------------|                                            |
+|                                                                                              ----------------|                                            |
+|                                                                                              ----------------|                                            |
+|                                                                                                              |                                            |
+|                                       /                                   /                                  |                                            |
+-------|                          |----/ ----------------------------------/ -----------|                      |                                            |
+       |                          |                      -013                           |                      |                                            |
+	   |                          |                                                     |                      |                                            |
+	   |                          |                conference room                      |                      |        scientists          mages          |
+	   |                          |                                                     |                      |                                            |
+	   |                          |                                                     |                      |                                            |
+	  |                           |                                                     |                      |--\  ---------------------------------------|
+	 |    /                       |                                                     |                          \                                        |
+	|----/  ----------------------|----------------------------|------------------------|                                                                   |
+    |                       -015                               |                        |                                                                   |
+	|                                                          |                        |                                                                   |
+	|                                                          |                        |                                                                   |
+	|                                                          |                        |                                                                   |
+	|                                starting things tech      |                        |                                                                   |
+	|                                                          |                        |                                                                   |
+	|                                                          |                        |                                                                   |
+	|----------------------------------------------------------|                        |-------------------------------------------------------------------|
+	
+
+
+
+
+
+
+
+
+
+
+
