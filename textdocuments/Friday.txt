@@ -48,9 +48,12 @@ Plots
 	Double based
 	-----------------------------------------------------------------------------------------
 		Someone wants to destroy their double
+		Somebody wants to destroy their targets double to trick the oath/take on their life
 		Someone wants to help their double
 		Someone who is jealous of their double 
 		Hasn't known mom since a child, and finds a new version in the new world
+		Curiosity between worlds 
+		Discovers their double doesn't exist (noble who has magical powers) 
 	Doesn't want to die a virgin/friendless
 	-----------------------------------------------------------------------------------------
 		Mage doesn't want to die without friends as they were hidden away
@@ -62,19 +65,38 @@ Plots
 	Other
 	-----------------------------------------------------------------------------------------	
 		Noble wants to become the Paladin to get their useful powers
+		Rivalry intra group
+		Professional rivalry - one is famous by stealing other's works (scientists)
+			everyone believes the famous one even though he doesn't 
+		Childhood rivals (mages)
 		
 Stuff people do 
 ---------------------------------------------------------------------------------------------
-Scientists: 
+Scientists (2x): 
 	create a gadget to test the items
-Mages: 
+	secretive
+Mages (2x): 
 	set up a ritual to test the items
-Politicians:
-Nobles:
-    wants to become the Paladin 
-Special ops:
-Rogues:
-Technician:
-Religious leader:
-Servant:
+	secretive 
+Politicians (2x):
+	negotiating supply transfer
+	keeping people civil
+	official advocates for their world 
+	info and supplies overtly
+Nobles (2x):
+    same things as politicians 
+Special ops (2x):
+	info and supplies covertly
+Rogues (2x):
+	same as special ops 
+Technician (1x):
+	has solution to save everyone, but it is futile to convince
+Religious leader (Paladin) (1x):
+	religious desiring world to end 
+Servant (1x):
+	serves the noble who doesn't actually have magical powers 
 	
+	
+List of characters:
+---------------------------------------------------------------------------------------------
+
