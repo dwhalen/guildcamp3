@@ -26,81 +26,44 @@
   \unknownplayer %% doesn't know what he looks like
   }
 
-%% quote examples
-\bigquote{``Use this macro for large quotes of prose and such.  It
-justifies everything like a paragraph, except with no
-indentation.''}{-- The Author}
-
-\cenquote{``This macro is good\\ For shorter quotes\\ Or things like
-song lyrics:\\ It centers.''}{-- The Author}
-
-
-%% \TODO outputs to the page and the terminal.  It is used for
-%% reminders of future work, and a convenient way to build a short
-%% outline for a sheet in-progress.
-\TODO{This is a test character sheet.}
 
 %% Using a Char macro with an empty argument, like \cTest{}, will
 %% produce the \usual namemapping (see Extras/README-namemappings).
 %% Introduce a character with \intro, e.g. \cTest{\intro}, to get a
 %% more full name.  \intro can be used whenever it fits into the text
 %% flow.
-Your friend from out of town, \cSomeGuy{\intro}, called you up one
-morning about a week ago.  \cSomeGuy{} told you to meet up with this
-person named \cNPC{}, whom you've never met.  \cNPC{}, whose full name
-is \cNPC{\intro}, is supposed to be really awesome and have a package
-for you.
 
-%% You can skip the advanced namemapping commands, and instead use
-%% \full, \fullplain (full name without prefixes or suffixes),
-%% \formal, and \informal.  You can also nest these inside identities,
-%% such as \nick{} (see Extras/README-identity).
-That bears repeating: \cNPC{\nick{\informal}}, whose full name is
-\cNPC{\full}, is supposed to be really awesome and have a package for
-you.
+It's not narcissism, just objective fact. I'm the smartest person I've ever met.
 
-%% For pronouns and other gender-dependent words, you can use the
-%% pronoun commands defined in Lists/char-LIST.tex to automatically
-%% control them based on the character's gender.  For example,
-%% \cTest{\They} will produce He, She, It, or He/She, based on
-%% \cTest's \MYsex field.  You can define your own pronouns in
-%% Lists/char-LIST.tex, as well.
-\cSomeGuy{} is a pretty good friend.  \cSomeGuy{\They} used to be your
-college roommate.  When \cSomeGuy{\they} called you up, you were
-pleasantly surprised to hear from \cSomeGuy{\them}.
+I could read sentences at age 1. I entered university at age 15. It's only been ten years since then, but I've been rising speedily through the scientific ranks in this science-focused society. I adore my work! And though I've yet to reach a major breakthrough, I am encouraged and mentored by some of the top members of my profession.
 
-%% \me{} produces whatever the argument to \name{...} is.  If, like
-%% usual, the argument was a char Macro, \me{} is an alias for that
-%% macro.
-Lots of people think your name, \me{\intro}, is funny.  You're not
-sure why; you think it's a fine name.
+By the scientists, at any rate. The politicians who deal with the scientific world never fail to make me fume. They dominate science by delegating public funding, even though they rarely have any comprehension of the projects they finance. Meanwhile, journalists leech off us scientists to fudge sensationalist headlines, and special interest groups interfere with academia constantly, even though their very existence conflicts with objective open-mindedness. Worst of all, there's rumors that extralegal forces are manipulating funding, promotions, and even data for nefarious purposes.
 
+On occasion, the parasites have cramped even my boundless zeal. Just a few years back, I had an insight into the workings of the universe-- a fairly common occurrence for me-- and I predicted that our world could collide with a parallel world. When I tried to obtain funding at the Annual Cosmology Conference of Tetra to investigate the possibility, I got no response from political sponsors. They didn't seem excited or even express confusion-- they mentally flatlined. Simultaneously, \cSciOne presented a near-identical idea in another room at the conference. Yet \cSciOne{\they} received twice the requested resources, and my mentors had to beg for me to be added to the field research team for the convergence today! I don't understand people, sometimes.
 
+Actually, I don't understand people, ever. I feel thwarted even when dealing with my so-called peers. They can be so petty, slow and unscientific that I solve derivatives in my head, sometimes, just to distract myself from their fatuity. I have a hunch about this convergence, today, that I'll meet a parallel version of myself, who doubtless will be the smartest person in their world. Since this inkling draws more on wish fulfillment than legitimate evidence, I haven't told anyone else, but I hope I'm correct. Perhaps I'll finally find someone worthy of my company.
 
-%%%%%
-%% The itemz environment is a list environment similar to itemize.
-%% The typesetting is very tight, and matches that used by the lists
-%% at the end of character sheets.  It takes an optional argument that
-%% acts as a title for the list.  The enum environment is a similar
-%% variation of the enumerate environment, and the desc environment is
-%% similar to description.
+At any rate, this project will be fascinating. \cSciOne and I have two official assignments-- to research the parallel world and to craft specialized technology, as required by environmental conditions. I'm not sure what the new universe will look like, but it should finally provide me with a chance to prove my intellectual prowess. To this end, I'll of course have to outshine the lead scientist on my team, \cSciOne, which isn't much of a task. Honestly, \cSciOne confuses me more than anyone else does, which is saying something. \cSciOne{\They} doesn't radiate intelligence as I do, yet we somehow arrived at the same theory of the convergence. How did \cSciOne{\they} think up my idea? Why did \cSciOne{\they} receive so much warmer a response? I feel like I'm facing a system of equations with one too many variables.
+
+That's it, I've decided. Today, I will do the most impressive work of my career-- I might even play nice with the politicians-- and I will attempt to also unravel the human mysteries of \cSciOne and demolish \cSciOne{\their} pedestal, if it turns out undeserved. As of tomorrow, I might be the hero of my world.
+
 \begin{itemz}[Goals]
   \item Things to do
-  \item Governments to topple
-  \item Worlds to dominate
-\end{itemz}
-
-\begin{itemz}[Notes]
-  \item You were born in London.
-  \item You went to MIT, and never left.
+  \item Research the parallel world
+  \item Create technology for your world's team
+  \item Look into whether you have a double
+  \item Investigate \cSciOne and expose any wrongdoing you discover
 \end{itemz}
 
 
 %%%%%
 %% List contacts, using \contact{<char macro>}
 \begin{contacts}
-  \contact{\cNPC{}} This person you've never met.
-  \contact{\cSomeGuy{}} Your friend from out of town.
+  \contact{\cPoliticianOne{}} The Secretary of Defense, who hopefully won't get in your way.
+  \contact{\cPoliticianTwo{}} The Undersecretary of Technology, who will oversee your work. Might cause trouble.
+  \contact{\cSpecOpsOne{}} Someone to do with security. Might help you obtain information or resources.
+  \contact{\cSpecOpsOne{}} Someone else related to security. Might help you obtain information or resources.
+  \contact{\cTechnician{}} The technician who recharges your batteries. Might help you outdo \cSciOne.
 \end{contacts}
 
 
