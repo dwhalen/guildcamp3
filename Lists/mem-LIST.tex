@@ -78,6 +78,56 @@
   \s\MYname	{Test Trigger}
   \s\MYtext	{This is a Test of a fold-n-staple memory packet}
   }
+  
+\NEW{MemPage}{\mTechOne}{
+	\s\MYname	{Open at T+1:30}
+	\s\MYtext	{$\tau$ is now 1}
+}
+\NEW{MemPage}{\mTechTwo}{
+	\s\MYname	{Open at T+2:15}
+	\s\MYtext	{$\tau$ is now 2}
+}
+\NEW{MemPage}{\mTechThree}{
+	\s\MYname	{Open at T+2:30}
+	\s\MYtext	{$\tau$ is now 0}
+}
+\NEW{MemPage}{\mTechFour}{
+	\s\MYname	{Open at T+3:00}
+	\s\MYtext	{$\tau$ is now 2}
+}  
+\NEW{MemPage}{\mTechFive}{
+	\s\MYname	{Open at T+3:30}
+	\s\MYtext	{$\tau$ is now 3}
+}
+
+\NEW{MemPage}{\mMagicOne}{
+	\s\MYname	{Open at T+1:00}
+	\s\MYtext	{$\mu$ is now 1}
+}
+\NEW{MemPage}{\mMagicTwo}{
+	\s\MYname	{Open at T+1:30}
+	\s\MYtext	{$\mu$ is now 0}
+}
+\NEW{MemPage}{\mMagicThree}{
+	\s\MYname	{Open at T+2:00}
+	\s\MYtext	{$\mu$ is now 2}
+}
+\NEW{MemPage}{\mMagicFour}{
+	\s\MYname	{Open at T+2:15}
+	\s\MYtext	{$\mu$ is now 1}
+}
+\NEW{MemPage}{\mMagicFive}{
+	\s\MYname	{Open at T+2:30}
+	\s\MYtext	{$\mu$ is now 0}
+}
+\NEW{MemPage}{\mMagicSix}{
+	\s\MYname	{Open at T+3:00}
+	\s\MYtext	{$\mu$ is now 2}
+}
+\NEW{MemPage}{\mMagicSeven}{
+	\s\MYname	{Open at T+3:30}
+	\s\MYtext	{$\mu$ is now 3}
+}
 
 \NEW{MemEnvelope}{\mEnvTest}{
   \s\MYname	{Test Trigger}
@@ -92,6 +142,11 @@
   \s\MYabils	{\aTest{}}
   \s\MYgreens	{\gTest{}}
   }
+
+\NEW{MemCover}{\mBookTechPeople}{
+	\s\MYname	{Book of Tech Levels}
+	\s\MYmems	{\mTechOne{}\mTechTwo{}\mTechThree{}\mTechFour{}\mTechFive{}}
+}
 
 \NEW{MemCover}{\mBookTest}{
   \s\MYname	{Book of Memory Packets}
