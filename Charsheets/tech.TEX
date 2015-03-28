@@ -19,22 +19,10 @@
 \begin{document}
 
 \name{\cTech{}}
-
-%% This sort of use of \updatemacro is covered in
-%% Extras/README-namemappings.
-\updatemacro{\cNPC}{
-  \unknownplayer %% doesn't know what he looks like
-  }
-
 %% quote examples
 \bigquote{``Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.''}{-- Mark Twain}
 
 \cenquote{``Success is not what you have\\ but who you are.''}{-- Bo Bennet}
-
-
-%% \TODO outputs to the page and the terminal.  It is used for
-%% reminders of future work, and a convenient way to build a short
-%% outline for a sheet in-progress.
 
 Well, this meeting certainly turned out a lot more exciting than you had thought. There's actually a second world and it even has people living in it. This is excellent for the scientists - they can test out their own theories on the convergence. And you can test out your own private theories on it as well. You'll just have to continue it in private as you have been for the last many years. 
 
@@ -54,13 +42,7 @@ Of course, with all this chaos and world ending in place an old \pronoun{\human}
 
 As for this whole 'parallel universes' double-self thing. Well, you've seen your double, \cServant{\intro} - seems to be some sort of servant over there. Maybe \cServant{\they}'s also trying to prove his worth in that society. Wouldn't want to underestimate \cServant{\their} abilities.
 
-%%%%%
-%% The itemz environment is a list environment similar to itemize.
-%% The typesetting is very tight, and matches that used by the lists
-%% at the end of character sheets.  It takes an optional argument that
-%% acts as a title for the list.  The enum environment is a similar
-%% variation of the enumerate environment, and the desc environment is
-%% similar to description.
+
 \begin{itemz}[Goals]
   \item Make sure the batteries needed by the scientists remain charged. That is your official job after all - no reason to upset the Undersecretary of Technology by not doing so. 
   \item Finish your own research. You've been working on it for years and need to finish it before you all die. Who knows, maybe it will even give the insight to save you all?
@@ -81,47 +63,6 @@ As for this whole 'parallel universes' double-self thing. Well, you've seen your
   \contact{\cSciTwo{}} The subordinate scientist on this mission. Officially. 
   \contact{\cServant{}} Your double. 
 \end{contacts}
-
-
-%%%%%
-%% \starttag{<tag>} <elements> \endtag 
-%% Valid <tag> values are blues, greens, abils, combat, mems, items,
-%% whites, notebooks, cash, signs, ids.  These each correspond to a
-%% type of macro defined in Lists/.
-%%
-%% By using \starttag, you can give this character <elements> of the
-%% type corresponding to <tag>.
-%%
-%% Multiple uses of the same <tag> will simply add together.
-\starttag{mems}
-
-  \mTest{}
-
-  \memfold{``Rosebud''}{Rosebud!  That was the name of\ldots the name
-  of\ldots darn, you forget.}
-
-  \startmembook{Book of Mempackets}
-
-    \mempage{if you see something blue}{Hey, that's blue!  Oh, you
-    remember, blue is your favorite color.  You really like blue
-    things, especially blue tentacles.  You wonder why\ldots}
-
-    \mempage{``Octy''}{Octy!  You remember Octy now!  She was your pet
-    blue octopus when you were a young child living offshore.  Oh, the
-    fun times you had!
-
-    You used to go swimming and diving with Octy all the time.  This
-    was years ago.  What happened?  You still can't remember\ldots but
-    you know you haven't even thought of her since you were small.}
-
-  \endmembook
-
-\endtag
-
-\starttag{abils}
-  \ability{Amazing Powers}{You can do strange and amazing things.}{I
-  do something strange and amazing.}
-\endtag
 
 
 \end{document}
