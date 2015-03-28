@@ -34,13 +34,13 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\NEW{Place}{\pTest}{
-  \s\MYname	{Test Place}
-  \s\MYsigns	{\sTest{}}
-  \s\MYitems	{\iTest{}\iWhatzit{}}
-  }
-  
+%
+%\NEW{Place}{\pTest}{
+%  \s\MYname	{Test Place}
+%  \s\MYsigns	{\sTest{}}
+%  \s\MYitems	{\iTest{}\iWhatzit{}}
+%  }
+%  
 \NEW{Place}{\pOwnedbyGMs}{
 	\s\MYname	{Stuff Owned by the GMs}
 	\s\MYsigns	{}
@@ -56,14 +56,14 @@
 
 \NEW{Place}{\pTechBase}{
 	\s\MYname	{Tech Base (200-015)}
-	\s\MYsigns	{\pSStorage{}}
-	\s\MYitems	{\iMobDrugsMagic{}\iTechArtifactOne{}\iTechArtifactTwo{}\iTechArtifactThree{}\iSalamander{}\iPhoenixFeather{}\iNiobiumCarbide{}\iDragonSkin{}\iGraphiteLube{}\iGraphiteLube{}\iGraphiteLube{}\iTransistor{}\iTransistor{}\iBloodPlasma{}\iBloodPlasma{}\iWerewolfFang{}\iScrapMetal{}\iScrapMetal{}}
+	\s\MYsigns	{\sSStorage{}}
+	\s\MYitems	{\iDrugsMagic{}\iTechArtifactOne{}\iTechArtifactTwo{}\iTechArtifactThree{}\iSalamander{}\iPhoenixFeather{}\iNiobiumCarbide{}\iDragonSkin{}\iGraphiteLube{}\iGraphiteLube{}\iGraphiteLube{}\iTransistor{}\iTransistor{}\iBloodPlasma{}\iBloodPlasma{}\iWerewolfFang{}\iScrapMetal{}\iScrapMetal{}}
 }
 
 \NEW{Place}{\pMagicBase}{
 	\s\MYname	{Magic Base (200-corner by barracks)}
-	\s\MYsigns	{\pMStorage{}}
-	\s\MYitems	{\iRabbitsFoot{}\iQuartz{}\iCursedTome{}\iScrapMetal{}\iScrapMetal{}\iScrapMetal{}\iScrapMetal{}\iScrapMetal{}\iScrapMetal{}\iScrapMetal{}\iStardust{}\iStardust{}\iHolyWater{}\iBelladonna{}\iUnicornHoof{}\iPhoenixFeather{}\iMobDrugsSci{}\iMagicArtifactOne{}\iMagicArtifactTwo{}\iMagicArtifactThree{}}
+	\s\MYsigns	{\sMStorage{}}
+	\s\MYitems	{\iRabbitsFoot{}\iQuartz{}\iCursedTome{}\iScrapMetal{}\iScrapMetal{}\iScrapMetal{}\iScrapMetal{}\iScrapMetal{}\iScrapMetal{}\iScrapMetal{}\iStardust{}\iStardust{}\iHolyWater{}\iBelladonna{}\iUnicornHoof{}\iPhoenixFeather{}\iDrugsTech{}\iMagicArtifactOne{}\iMagicArtifactTwo{}\iMagicArtifactThree{}}
 }
 
 \NEW{Place}{\pScientists}{
@@ -76,7 +76,7 @@
 \NEW{Place}{\pMages}{
 	\s\MYname	{Mage's Ritual Desk (200-002)}
 	\s\MYsigns	{\sMageWorkbench{}}
-	\s\MYitems	{\iCauldron{}\iMortarPestle{}\iRabbitsFoot{}\iVial{}\iCentrifuge{}\iTestTube{}\iSieve{}\iLuckyClover{}\iScrapMetal{}\iWerewolfFang{}\iHolyWater{}\iHolyWater{}\iHolyWater{}\iBloodPlasma{}\iBelladonna{}\iDragonSkin{}\iDragonSkin{}\iCompoundNine{}}
+	\s\MYitems	{\iCauldron{}\iMortarPestle{}\iRabbitsFoot{}\iVial{}\iCentrifuge{}\iTestTube{}\iSieve{}\iClover{}\iScrapMetal{}\iWerewolfFang{}\iHolyWater{}\iHolyWater{}\iHolyWater{}\iBloodPlasma{}\iBelladonna{}\iDragonSkin{}\iDragonSkin{}\iCompoundNine{}}
 }
 
 \NEW{Place}{\pLockers}{
@@ -107,7 +107,7 @@
 \NEW{Place}{\pStorageOne}{
 	\s\MYname	{A General Storage Room (hall by 002)}
 	\s\MYsigns	{\sGenStorage{}}
-	\s\MYitems	{\iSieve()\iLeadPipe{}\iGlassLens{}\iMonoBlade{}\iScrapMetal{}\iScrapMetal{}\iScrapMetal{}\iSoulGem{}\iWerewolfFang{}\iWerewolfFang{}\iWerewolfFang{}\iSteamTurbine{}\iBloodPlasma{}\iBloodPlasma{}\iTransistor{}\iTransistor{}\iHolyWater{}\iHolyWater{}\iHolyWater{}\iDragonSkin{}\iNiobiumCarbide{}}
+	\s\MYitems	{\iSieve{}\iLeadPipe{}\iGlassLens{}\iMonoBlade{}\iScrapMetal{}\iScrapMetal{}\iScrapMetal{}\iSoulGem{}\iWerewolfFang{}\iWerewolfFang{}\iWerewolfFang{}\iSteamTurbine{}\iBloodPlasma{}\iBloodPlasma{}\iTransistor{}\iTransistor{}\iHolyWater{}\iHolyWater{}\iHolyWater{}\iDragonSkin{}\iNiobiumCarbide{}}
 }
 
 \NEW{Place}{\pMageStorage}{
@@ -129,93 +129,93 @@
   }
   
   \NEW{Place}{\pSciOneLocker}{
-  	\s\MYname	{\cSciOne{}'s Locker}
+  	\s\MYname	{Locker 1}
   	\s\MYsigns	{\sSciOneLocker{}}
   	\s\MYitems	{\iCog{}\iCircuitBoard{}\iTransistor{}\iCompoundNine{}}
   }
   
   \NEW{Place}{\pSciTwoLocker}{
-  	\s\MYname	{\cSciTwo{}'s Locker}
+  	\s\MYname	{Locker 2}
   	\s\MYsigns	{\sSciTwoLocker{}}
   	\s\MYitems	{\iCircuitBoard{}\iFlashlight{}\iTransistor{}\iTransistor{}}
   	%% Need to add 3 resistors, but need to know what type
   }
   
   \NEW{Place}{\pMageOneLocker}{
-  	\s\MYname	{\cMageOne{}'s Locker}
+  	\s\MYname	{Locker 3}
   	\s\MYsigns	{\sMageOneLocker{}}
   	\s\MYitems	{\iPixieWings{}\iScrapMetal{}\iScrapMetal{}\iCog{}}
   }
   
   \NEW{Place}{\pMageTwoLocker}{
-  	\s\MYname	{\cMageTwo{}'s Locker}
+  	\s\MYname	{Locker 4}
   	\s\MYsigns	{\sMageTwoLocker{}}
   	\s\MYitems	{\iScrapMetal{}\iPixieWings{}\iCog{}\iSalamander{}}
   }
   
   \NEW{Place}{\pNobleOneLocker}{
-  	\s\MYname	{\cNobleOne{}'s Locker}
+  	\s\MYname	{Locker 5}
   	\s\MYsigns	{\sNobleOneLocker{}}
   	\s\MYitems	{\iScrapMetal{}\iScrapMetal{}\iStardust{}\iStardust{}\iHolyWater{}\iPhoenixFeather{}}
   }
   
   \NEW{Place}{\pNobleTwoLocker}{
-  	\s\MYname	{\cNobleTwo{}'s Locker}
+  	\s\MYname	{Locker 6}
   	\s\MYsigns	{\sNobleTwoLocker{}}
   	\s\MYitems	{\iScrapMetal{}\iBelladonna{}}
   }
   
   \NEW{Place}{\pPolOneLocker}{
-  	\s\MYname	{\cPoliOne{}'s Locker}
+  	\s\MYname	{Locker 7}
   	\s\MYsigns	{\sPolOneLocker{}}
-  	\s\MYitems	{\iScrapMetal{}\iScrapmetal{}\iHolyWater{}\iPenicillin{}}
+  	\s\MYitems	{\iScrapMetal{}\iScrapMetal{}\iHolyWater{}\iPenicillin{}}
   }
   
   \NEW{Place}{\pPolTwoLocker}{
-  	\s\MYname	{\cPoliTwo{}'s Locker}
+  	\s\MYname	{Locker 8}
   	\s\MYsigns	{\sPolTwoLocker{}}
-  	\s\MYitems	{\iScrapMetal()\iScrapMetal{}}
+  	\s\MYitems	{\iScrapMetal{}\iScrapMetal{}}
   }
   
   \NEW{Place}{\pRogueOneLocker}{
-  	\s\MYname	{\cRogueOne{}'s Locker}
+  	\s\MYname	{Locker 9}
   	\s\MYsigns	{\sRogueOneLocker{}}
   	\s\MYitems	{\iScrapMetal{}\iHolyWater{}}
   }
   
   \NEW{Place}{\pRogueTwoLocker}{
-  	\s\MYname	{\cRogueTwo{}'s Locker}
+  	\s\MYname	{Locker 10}
   	\s\MYsigns	{\sRogueTwoLocker{}}
   	\s\MYitems	{\iScrapMetal{}\iScrapMetal{}\iHolyWater{}\iHolyWater{}\iHolyWater{}\iBloodPlasma{}\iBloodPlasma{}\iBelladonna{}\iDragonSkin{}\iUnicornHoof{}\iPhoenixFeather{}\iWoolofBat{}\iDibella{}}
   }
   
   \NEW{Place}{\pSpecOneLocker}{
-  	\s\MYname	{\cSpecOpOne{}'s Locker}
-  	\s\MYsigns	{\sSpecOpOneLocker{}}
+  	\s\MYname	{Locker 11}
+  	\s\MYsigns	{\sSpecOneLocker{}}
   	\s\MYitems	{\iScrapMetal{}\iNiobiumCarbide{}\iNiobiumCarbide{}\iPenicillin{}\iPenicillin{}}
   }
   
   \NEW{Place}{\pSpecTwoLocker}{
-  	\s\MYname	{\cSpecOpTwo{}'s Locker}
+  	\s\MYname	{Locker 12}
   	\s\MYsigns	{\sSpecTwoLocker{}}
   	\s\MYitems	{\iScrapMetal{}\iTranceDrug{}}
   }
   
   \NEW{Place}{\pPaladinLocker}{
-  	\s\MYname	{\cPaladin{}'s Locker}
+  	\s\MYname	{Locker 13}
   	\s\MYsigns	{\sPaladinLocker{}}
   	\s\MYitems	{\iScrapMetal{}\iHolyWater{}\iHolyWater{}\iHolyWater{}\iHolyWater{}}
   }
   
   \NEW{Place}{\pTechLocker}{
-  	\s\MYname	{\cTech{}'s Locker}
+  	\s\MYname	{Locker 14}
   	\s\MYsigns	{\sTechLocker{}}
   	\s\MYitems	{\iOil{}\iCircuitBoard{}\iScrapMetal{}\iScrapMetal{}\iScrapMetal{}}
   	%% Need to add 4 resistors, but need to know what types
   }
   
   \NEW{Place}{\pServantLocker}{
-  	\s\MYname	{\cServant{}'s Locker}
+  	\s\MYname	{Locker 15}
   	\s\MYsigns	{\sServantLocker{}}
   	\s\MYitems	{\iFishingNet{}\iScrapMetal{}\iHolyWater{}\iHolyWater{}}
   }
