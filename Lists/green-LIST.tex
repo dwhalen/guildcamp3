@@ -4,83 +4,72 @@
 %% These are for greensheets.
 %%
 %%%%%
-
 \DECLARESUBTYPE{Green}{Element}
 \PRESETS{Green}{
-  \FD\MYfile	{} %% filename (in \greens dir)
-  \FS\MYtext	{\ifx\MYfile\empty\else%
-		  \getextractenvs{document}{\greens/\MYfile}%
-		\fi}
-  }
-
-
+\FD\MYfile	{} %% filename (in \greens dir)
+\FS\MYtext	{\ifx\MYfile\empty\else%
+\getextractenvs{document}{\greens/\MYfile}%
+\fi}
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \NEW{Green}{\gTest}{
-  \s\MYname	{Test Greensheet}
-  \s\MYfile	{README.tex}
-  }
-  
-  \NEW{Green}{\gLockpicking}{
-  	\s\MYname	{Lockpicking}
-  	\s\MYfile	{glockpicking.tex}
-  }
-  
-  \NEW{Green}{\gMPublishing}{
-  	\s\MYname	{The Publishing Race (Mages)}
-  	\s\MYfile	{gmpublishing.tex}
-  }
-  
-  \NEW{Green}{\gSPublishing}{
-  	\s\MYname	{The Publishing Race (Scientists)}
-  	\s\MYfile	{gspublishing.tex}
-  }
-  
-  \NEW{Green}{\gBlackMarket}{
-  	\s\MYname	{The Black Market}
-  	\s\MYfile	{gblackmarket.tex}
-  }
-  
-  \NEW{Green}{\gTrance}{
-  	\s\MYname	{Going into a Trance}
-  	\s\MYfile	{gtrance.tex}
-  }
-  
-  \NEW{Green}{\gBatterycharge}{
-  	\s\MYname	{Charging Batteries}
-  	\s\MYfile	{gbattery.tex}
-  }
-  \NEW{Green}{\gSaveWorld}{
-  	\s\MYname	{How to save the World!}
-  	\s\MYfile	{gSaveWorld.tex}
-  }
-
-  \NEW{Green}{\gManaRecharge}{
-  	\s\MYname	{How to Recharge Mana!}
-  	\s\MYfile	{gmanarecharge.tex}
-  }
-
-  \NEW{Green}{\gYouAreFired}{
-	\s\MYname	{How to Fire Someone}
-	\s\MYfile	{gyouarefired.tex}
-  }
-  
-  \NEW{Green}{\gSaveTheWorldScientists}{
-  	\s\MYname	{The Culmination of Your Research to Save the World}
-  	\s\MYfile	{gSaveWorldSci.tex}
-  }
-  
-  \NEW{Green}{\gSaveTheWorldMages}{
-  	\s\MYname	{The Ultimate Solution to Save the World}
-  	\s\MYfile	{gSaveWorldMage.tex}
-  }
-
-  \NEW{Green}{\gSpeech}{
-  	\s\MYname	{How to Give a Speech}
-  	\s\MYfile	{gspeech.tex}
-  }
-  
-
-
-
+\s\MYname	{Test Greensheet}
+\s\MYfile	{README.tex}
+}
+\NEW{Green}{\gLockpicking}{
+\s\MYname	{Lockpicking}
+\s\MYfile	{glockpicking.tex}
+}
+\NEW{Green}{\gRing}{
+\s\MYname	{Promise Ring}
+\s\MYfile	{gring.tex}
+}
+\NEW{Green}{\gPoem}{
+\s\MYname	{Proposal Poem}
+\s\MYfile	{gpoem.tex}
+}
+\NEW{Green}{\gMPublishing}{
+\s\MYname	{The Publishing Race (Mages)}
+\s\MYfile	{gmpublishing.tex}
+}
+\NEW{Green}{\gSPublishing}{
+\s\MYname	{The Publishing Race (Scientists)}
+\s\MYfile	{gspublishing.tex}
+}
+\NEW{Green}{\gBlackMarket}{
+\s\MYname	{The Black Market}
+\s\MYfile	{gblackmarket.tex}
+}
+\NEW{Green}{\gTrance}{
+\s\MYname	{Going into a Trance}
+\s\MYfile	{gtrance.tex}
+}
+\NEW{Green}{\gBatterycharge}{
+\s\MYname	{Charging Batteries}
+\s\MYfile	{gbattery.tex}
+}
+\NEW{Green}{\gSaveWorld}{
+\s\MYname	{How to save the World!}
+\s\MYfile	{gSaveWorld.tex}
+}
+\NEW{Green}{\gManaRecharge}{
+\s\MYname	{How to Recharge Mana!}
+\s\MYfile	{gmanarecharge.tex}
+}
+\NEW{Green}{\gYouAreFired}{
+\s\MYname	{How to Fire Someone}
+\s\MYfile	{gyouarefired.tex}
+}
+\NEW{Green}{\gSaveTheWorldScientists}{
+\s\MYname	{The Culmination of Your Research to Save the World}
+\s\MYfile	{gSaveWorldSci.tex}
+}
+\NEW{Green}{\gSaveTheWorldMages}{
+\s\MYname	{The Ultimate Solution to Save the World}
+\s\MYfile	{gSaveWorldMage.tex}
+}
+\NEW{Green}{\gSpeech}{
+\s\MYname	{How to Give a Speech}
+\s\MYfile	{gspeech.tex}
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
