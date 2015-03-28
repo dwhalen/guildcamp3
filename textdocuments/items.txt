@@ -17,3 +17,30 @@ Consumable
 Exchangeable
 	mob drugs sci
 	mob drugs magic
+	
+Critical:
+Build machine:
+2 pixie wings
+1 sheet of scrap metal
+1 werewolf fang
+1 phoenix feather
+1 soul gem
+use a cauldron
+use a plumbic rod
+1 circuit board
+50 ohms of resistors
+3 sheets of scrap metal 
+1 cog
+1 steam turbine
+use a multitool
+use a screwdriver
+
+Run machine magic: 
+1 stardust
+1 dragonskin
+1 holy water
+
+Run machine tech:
+1 blood plasma
+1 transistor
+1 graphene
