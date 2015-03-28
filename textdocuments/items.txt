@@ -1,0 +1,19 @@
+Reusable
+	quartz
+	rabbit's foot
+	sieve
+	cursed tome
+	lead pipe
+	glass lens
+	lucky clover
+	magnet
+
+Consumable
+	soul gem
+	steam turbine
+	penicillin
+	
+
+Exchangeable
+	mob drugs sci
+	mob drugs magic
