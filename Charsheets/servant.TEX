@@ -31,33 +31,30 @@
 justifies everything like a paragraph, except with no
 indentation.''}{-- The Author}
 
-\cenquote{``This macro is good\\ For shorter quotes\\ Or things like
-song lyrics:\\ It centers.''}{-- The Author}
-
 
 %% \TODO outputs to the page and the terminal.  It is used for
 %% reminders of future work, and a convenient way to build a short
 %% outline for a sheet in-progress.
-\TODO{This is a test character sheet.}
+\TODO{Still need to write most of this.}
 
 %% Using a Char macro with an empty argument, like \cTest{}, will
 %% produce the \usual namemapping (see Extras/README-namemappings).
 %% Introduce a character with \intro, e.g. \cTest{\intro}, to get a
 %% more full name.  \intro can be used whenever it fits into the text
 %% flow.
-Your friend from out of town, \cSomeGuy{\intro}, called you up one
-morning about a week ago.  \cSomeGuy{} told you to meet up with this
-person named \cNPC{}, whom you've never met.  \cNPC{}, whose full name
-is \cNPC{\intro}, is supposed to be really awesome and have a package
-for you.
+%%Your friend from out of town, \cSomeGuy{\intro}, called you up one
+%%morning about a week ago.  \cSomeGuy{} told you to meet up with this
+%%person named \cNPC{}, whom you've never met.  \cNPC{}, whose full name
+%%is \cNPC{\intro}, is supposed to be really awesome and have a package
+%%for you.
 
 %% You can skip the advanced namemapping commands, and instead use
 %% \full, \fullplain (full name without prefixes or suffixes),
 %% \formal, and \informal.  You can also nest these inside identities,
 %% such as \nick{} (see Extras/README-identity).
-That bears repeating: \cNPC{\nick{\informal}}, whose full name is
-\cNPC{\full}, is supposed to be really awesome and have a package for
-you.
+%%That bears repeating: \cNPC{\nick{\informal}}, whose full name is
+%%\cNPC{\full}, is supposed to be really awesome and have a package for
+%%you.
 
 %% For pronouns and other gender-dependent words, you can use the
 %% pronoun commands defined in Lists/char-LIST.tex to automatically
@@ -65,17 +62,17 @@ you.
 %% \cTest{\They} will produce He, She, It, or He/She, based on
 %% \cTest's \MYsex field.  You can define your own pronouns in
 %% Lists/char-LIST.tex, as well.
-\cSomeGuy{} is a pretty good friend.  \cSomeGuy{\They} used to be your
-college roommate.  When \cSomeGuy{\they} called you up, you were
-pleasantly surprised to hear from \cSomeGuy{\them}.
+%%\cSomeGuy{} is a pretty good friend.  \cSomeGuy{\They} used to be your
+%%college roommate.  When \cSomeGuy{\they} called you up, you were
+%%pleasantly surprised to hear from \cSomeGuy{\them}.
 
 %% \me{} produces whatever the argument to \name{...} is.  If, like
 %% usual, the argument was a char Macro, \me{} is an alias for that
 %% macro.
-Lots of people think your name, \me{\intro}, is funny.  You're not
-sure why; you think it's a fine name.
+%%Lots of people think your name, \me{\intro}, is funny.  You're not
+%%sure why; you think it's a fine name.
 
-
+Your first memory is of the flame of mana rushing through you as the animation ritual was performed over your constructed body. Opening your eyes for the first time, you saw your first master, a high-ranking member of the mob.
 
 %%%%%
 %% The itemz environment is a list environment similar to itemize.
@@ -85,22 +82,22 @@ sure why; you think it's a fine name.
 %% variation of the enumerate environment, and the desc environment is
 %% similar to description.
 \begin{itemz}[Goals]
-  \item Things to do
-  \item Governments to topple
-  \item Worlds to dominate
+  \item Do everything \cNobleOne{} tells you to do
+  \item Make sure \cNobleOne{} is successful in \cNobleOne{\their} endeavors
+  \item Mob kill
+  \item Mob exchange
 \end{itemz}
 
 \begin{itemz}[Notes]
-  \item You were born in London.
-  \item You went to MIT, and never left.
+  \item If your mana level ever reaches 0, you will die.
 \end{itemz}
 
 
 %%%%%
 %% List contacts, using \contact{<char macro>}
 \begin{contacts}
-  \contact{\cNPC{}} This person you've never met.
-  \contact{\cSomeGuy{}} Your friend from out of town.
+  \contact{\cNobleOne{}} Your master, to whom you are intensely loyal.
+  \contact{\cPolOne{}} Your master's double from the other universe, who you must kill to satisfy the mob
 \end{contacts}
 
 
@@ -140,8 +137,7 @@ sure why; you think it's a fine name.
 \endtag
 
 \starttag{abils}
-  \ability{Amazing Powers}{You can do strange and amazing things.}{I
-  do something strange and amazing.}
+  \ability{Drain Mana}{You drain one unit of mana from a magical person.}{You feel a chill in your body as your mana level decreases by 1.}
 \endtag
 
 
