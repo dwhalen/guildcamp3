@@ -1,30 +1,7 @@
-%%%%%
-%%
-%% Character sheets live in this directory.  This file doubles as a
-%% latex'able example charsheet.
-%%
-%% _template.tex serves as a bare-bones template suitable for
-%% copying when starting a new sheet.
-%%
-%% Character macros (in ../Lists/char-LIST.tex, presumably) each
-%% have a file that lives here.  The argument to \name{...} probably
-%% should be the macro for the given character, which will generate
-%% the charsheet's name (and print out lists of the characters stuff
-%% at the end) as specified in char-LIST.tex.  However, you can also
-%% just use \name{Some Text} if you want.
-%%
-%%%%%
-
 \documentclass[char]{guildcamp3}
 \begin{document}
 
 \name{\cPaladin{}}
-
-%% This sort of use of \updatemacro is covered in
-%% Extras/README-namemappings.
-\updatemacro{\cNPC}{
-  \unknownplayer %% doesn't know what he looks like
-  }
 
 %% quote examples
 \bigquote{``Use this macro for large quotes of prose and such.  It
@@ -89,7 +66,7 @@ In order to maintain your cover, you must recharge mana for Convocation members 
   \contact{\cMageTwo{}} A mage who helped to create the portal to the other universe. You don't know \cMageTwo{\them}.
   \contact{\cRogueOne{}} A member of base security. You don't know \cRogueOne{\them}.
   \contact{\cRogueTwo{}} A member of base security. You don't know \cRogueOne{\them}.
-  \contact{\cServant{}} A \cServant{\gender} who follows \cNobleOne{} around. Probably his servant, based on his clothing and manner.
+  \contact{\cServant{}} A \cServant{\human} who follows \cNobleOne{} around. Probably his servant, based on his clothing and manner.
 \end{contacts}
 
 
