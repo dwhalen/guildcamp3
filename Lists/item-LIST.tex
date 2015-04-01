@@ -486,64 +486,74 @@
 	\s\MYtext	{Using this device renders the user invisible for five minutes or until they interact with a person or item. This means you can move around gamespace and here things, but no one sees you. Consume when used.}
 }
 
-\NEW{Item}{\iTruthPotion}{
+\NEW{ItemFold}{\iTruthPotion}{
 	\s\MYname	{Vial of Golden Liquid}
 	\s\MYnumber	{10059}
-	\s\MYtext	{Consuming this liquid obligates the drinker to answer truthfully to 3 yes or no questions. Consume when used.}
+	\s\MYtext {open if consumed}
+	\s\MYcontents	{Consuming this liquid obligates the drinker to answer truthfully to 3 yes or no questions. Consume when used.}
 }
 
-\NEW{Item}{\iTruthSerum}{
+\NEW{ItemFold}{\iTruthSerum}{
 	\s\MYname	{Test Tube of Golden Liquid}
 	\s\MYnumber	{10060}
-	\s\MYtext	{Consuming this liquid obligates the drinker to answer truthfully to 3 yes or no questions. Consume when used.}
+	\s\MYtext	{open if consumed}
+	\s\MYcontents {Consuming this liquid obligates the drinker to answer truthfully to 3 yes or no questions. Consume when used.}
 }
 
-\NEW{Item}{\iMagicPoison}{
+\NEW{ItemFold}{\iMagicPoison}{
 	\s\MYname	{Vial of Black Liquid}
 	\s\MYnumber	{10061}
-	\s\MYtext	{Consuming this liquid wounds the drinker. Consume when used.}
+	\s\MYtext	{open if consumed}
+	\s\MYcontents {Consuming this liquid wounds the drinker. Consume when used.}
 }
 
-\NEW{Item}{\iTechPoison}{
+\NEW{ItemFold}{\iTechPoison}{
 	\s\MYname	{Test Tube of Black Liquid}
 	\s\MYnumber	{10062}
-	\s\MYtext	{Consuming this liquid wounds the drinker. Consume when used.}
+	\s\MYtext	{open if consumed}
+	\s\MYcontents {Consuming this liquid wounds the drinker. Consume when used.}
 }
 
-\NEW{Item}{\iStrengthSpell}{
+\NEW{ItemFold}{\iStrengthSpell}{
 	\s\MYname	{Strength Spell Stone}
 	\s\MYnumber	{10063}
-	\s\MYtext	{A glowing black stone. Use by incanting the words "strength flow through me." You will feel warmth run through your veins. After using, you will be able to carry items adding up to 6 hands bulky for a period of five minutes. Consume when used.}
+	\s\MYtext	{open if consumed}
+	\s\MYcontents {A glowing black stone. Use by incanting the words "strength flow through me." You will feel warmth run through your veins. After using, you will be able to carry items adding up to 6 hands bulky for a period of five minutes. Consume when used.}
 }
 
-\NEW{Item}{\iSteroids}{
+\NEW{ItemFold}{\iSteroids}{
 	\s\MYname	{Steroids}
 	\s\MYnumber	{10064}
-	\s\MYtext	{A syringe filled with yellow liquid. Inject to use. After using, you will be able to carry items adding up to 6 hands bulky for a period of five minutes. Consume when used.}
+	\s\MYtext	{open if consumed}
+	\s\MYcontents {A syringe filled with yellow liquid. Inject to use. After using, you will be able to carry items adding up to 6 hands bulky for a period of five minutes. Consume when used.}
 }
 
-\NEW{Item}{\iCRUpPotion}{
+\NEW{ItemFold}{\iCRUpPotion}{
 	\s\MYname	{Vial of Bright Red Liquid}
 	\s\MYnumber	{10065}
-	\s\MYtext	{Drinking this liquid will make you feel stronger. The drinker's CR will increase by 1 for a period of five minutes. Consume when used.}
+	\s\MYtext	{open if consumed}
+	\s\MYcontents {Drinking this liquid will make you feel stronger. The drinker's CR will increase by 1 for a period of five minutes. Consume when used.}
 }
 
-\NEW{Item}{\iCRUpSerum}{
+\NEW{ItemFold}{\iCRUpSerum}{
 	\s\MYname	{Test Tube of Bright Red Liquid}
 	\s\MYnumber	{10066}
-	\s\MYtext	{Drinking this liquid will make you feel stronger. The drinker's CR will increase by 1 for a period of five minutes. Consume when used.}
+	\s\MYtext	{open if consumed}
+	\s\MYcontents {Drinking this liquid will make you feel stronger. The drinker's CR will increase by 1 for a period of five minutes. Consume when used.}
 }
 
-\NEW{Item}{\iCRDownPotion}{
+\NEW{ItemFold}{\iCRDownPotion}{
 	\s\MYname	{Vial of Deep Blue Liquid}
 	\s\MYnumber	{10067}
-	\s\MYtext	{Drinking this liquid will make you feel weaker. The drinker's CR will decrease by 1 for a period of five minutes. Consume when used.}
+	\s\MYtext	{open if consumed}
+	\s\MYcontents {Drinking this liquid will make you feel weaker. The drinker's CR will decrease by 1 for a period of five minutes. Consume when used.}
 }
 
-\NEW{Item}{\iCRDownSerum}{
+\NEW{ItemFold}{\iCRDownSerum}{
 	\s\MYname	{Test Tube of Deep Blue Liquid}
 	\s\MYnumber	{10068}
-	\s\MYtext	{Drinking this liquid will make you feel weaker. The drinker's CR will decrease by 1 for a period of five minutes. Consume when used.}
+	\s\MYtext	{open if consumed}
+	\s\MYcontents {Drinking this liquid will make you feel weaker. The drinker's CR will decrease by 1 for a period of five minutes. Consume when used.}
 }
 
 \NEW{Item}{\iRabbitsFoot}{
@@ -557,16 +567,18 @@
 	\s\MYtext	{A small pill. Taking this will prevent the taker from entering a trance for half an hour. Consume when used.}
 }
 
-\NEW{Item}{\iHealthPotion}{
+\NEW{ItemFold}{\iHealthPotion}{
 	\s\MYname	{Vial of Bright Green Liquid}
 	\s\MYnumber	{10075}
-	\s\MYtext	{This potion will heal a wounded person. Consume when used.}
+	\s\MYtext	{open if you consume}
+	\s\MYcontents {This potion will heal a wounded person. Consume when used.}
 }
 
-\NEW{Item}{\iHealthRemedy}{
+\NEW{ItemFold}{\iHealthRemedy}{
 	\s\MYname	{Test Tube of Bright Green Liquid}
 	\s\MYnumber	{10076}
-	\s\MYtext	{This remedy will heal a wounded person. Consume when used.}
+	\s\MYtext {open if you consume}
+	\s\MYcontents	{This remedy will heal a wounded person. Consume when used.}
 }
 
 
