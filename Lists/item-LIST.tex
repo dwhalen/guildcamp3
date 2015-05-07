@@ -32,7 +32,7 @@
 \def\unstash{%
   \append\MYmark{ ~UNSTASHABLE~ }}
 \def\bulky#1{%
-  \s\MYbulky{#1}%
+  \s\MYbulky{#1}%{#1}%
   \append\MYmark{\mbox{ ~\MYbulky-Hand~Bulky~ }}}
 \def\contain#1{%
   \s\MYcapacity{#1}%
@@ -158,14 +158,14 @@
 \NEW{Item}{\iCauldron}{
 	\s\MYname	{Cauldron}
 	\s\MYnumber	{10003}
-	\s\MYbulky {1}
+	\bulky {1}
 	\s\MYtext	{A cast-iron cauldron.}
 }
 
 \NEW{Item}{\iPlumbicRod}{
 	\s\MYname	{Plumbic Rod}
 	\s\MYnumber	{10004}
-	\s\MYbulky {1}
+	\bulky {1}
 	\s\MYtext	{A solid leaden rod.}
 }
 
@@ -196,7 +196,7 @@
 \NEW{Item}{\iCentrifuge}{
 	\s\MYname	{Centrifuge}
 	\s\MYnumber	{10009}
-	\s\MYbulky {2}
+	\bulky {2}
 	\s\MYtext	{A machine that rotates rapidly to separate liquids of varying densities.}
 }
 
@@ -215,7 +215,7 @@
 \NEW{Item}{\iLeadPipe}{
 	\s\MYname	{Lead Pipe}
 	\s\MYnumber	{10012}
-	\s\MYbulky {1}
+	\bulky {1}
 	\s\MYtext	{A heavy lead pipe.}
 }
 
@@ -300,7 +300,7 @@
 \NEW{Item}{\iCog}{
 	\s\MYname	{Cog}
 	\s\MYnumber	{10025}
-	\s\MYbulky {1}
+	\bulky {1}
 	\s\MYtext	{A large cog. Consume when used.}
 }
 
@@ -343,7 +343,7 @@
 \NEW{Item}{\iFishingNet}{
 	\s\MYname	{Fishing Net}
 	\s\MYnumber	{10032}
-	\s\MYbulky {1}
+	\bulky {1}
 	\s\MYtext	{A fishing net. Consume when used.}
 }
 
@@ -362,7 +362,7 @@
 \NEW{Item}{\iDragonSkin}{
 	\s\MYname	{Dragon Skin}
 	\s\MYnumber	{10035}
-	\s\MYbulky {1}
+	\bulky {1}
 	\s\MYtext	{A thick patch of dragon skin covered in sparkling scales. The dragon is very strong magically, so this is a revered item. Consume when used.}
 }
 
@@ -393,7 +393,7 @@
 \NEW{Item}{\iPhoenixFeather}{
 	\s\MYname	{Phoenix Feather}
 	\s\MYnumber	{10040}
-	\s\MYbulky {1}
+	\bulky {1}
 	\s\MYtext	{A large golden phoenix feather. Consume when used.}
 }
 
@@ -461,42 +461,42 @@
 \NEW{Item}{\iMagicArtifactOne}{
 	\s\MYname	{The artifact of wonder}
 	\s\MYnumber	{10051}
-	\s\MYbulky {4}
+	\bulky {4}
 	\s\MYtext	{An enigmatic, glowing object with too many angles. You cannot tell what color it is. Looking at it for too long causes hallucinations. Indestructible.}
 }
 
 \NEW{Item}{\iMagicArtifactTwo}{
 	\s\MYname	{The artifact of faith}
 	\s\MYnumber	{10052}
-	\s\MYbulky {4}
+	\bulky {4}
 	\s\MYtext	{A strange, glowing statue that is simultaneously here and not here. Looking at it for too long makes you hear the music of the celestial spheres. Indestructible.}
 }
 
 \NEW{Item}{\iMagicArtifactThree}{
 	\s\MYname	{The artifact of strength}
 	\s\MYnumber	{10053}
-	\s\MYbulky {4}
+	\bulky {4}
 	\s\MYtext	{A strange, floating purple cube glowing with the opposite of light. Looking at it for too long will give you terrible nightnares. Indestructible.}
 }
 
 \NEW{Item}{\iTechArtifactOne}{
 	\s\MYname	{The artifact of humanity}
 	\s\MYnumber	{10054}
-	\s\MYbulky {4}
+	\bulky {4}
 	\s\MYtext	{A strange mechanical artifact that projects a strong magnetic field. Staying next to it for too long will give you a headache. Indestructible.}
 }
 
 \NEW{Item}{\iTechArtifactTwo}{
 	\s\MYname	{The artifact of mechanics}
 	\s\MYnumber	{10055}
-	\s\MYbulky {4}
+	\bulky {4}
 	\s\MYtext	{A large, white, seemingly perfect sphere that produces holograms of your deepest desires. Looking at it for too long will give you a strong sense of melancholy. Indestructible.}
 }
 
 \NEW{Item}{\iTechArtifactThree}{
 	\s\MYname	{The artifact of electronics}
 	\s\MYnumber	{10056}
-	\s\MYbulky {4}
+	\bulky {4}
 	\s\MYtext	{A seamless toroidal contraption that beeps occasionally. Animals shy away from it. Indestructible.}
 }
 
@@ -746,7 +746,7 @@
 \NEW{Item}{\iSecretFourteen}{
 	\s\MYname	{Irrefutable Proof}
 	\s\MYnumber	{10082}
-	\s\MYtext	{This serves as irrefutable proof that \cPoliTwo{\intro} ordered the deaths of \RogueOne{\intro}'s double and the double of \RogueOne{\their} sister.}
+	\s\MYtext	{This serves as irrefutable proof that \cPoliTwo{\intro} ordered the deaths of \cRogueOne{\intro}'s double and the double of \cRogueOne{\their} sister.}
 }
 
 
