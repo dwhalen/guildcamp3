@@ -27,21 +27,23 @@
 \contentsline {paragraph}{Props:}{5}
 \contentsline {paragraph}{Containers:}{5}
 \contentsline {paragraph}{Character Bodies:}{5}
-\contentsline {subsection}{\numberline {3.1}Searching, Stashing, and Stealing}{6}
-\contentsline {paragraph}{Places:}{6}
-\contentsline {paragraph}{People:}{6}
-\contentsline {paragraph}{Bags:}{6}
-\contentsline {section}{\numberline {4}Violence, Damage, and Death}{7}
-\contentsline {subsection}{\numberline {4.1}Health States}{7}
-\contentsline {subsection}{\numberline {4.2}Weapons}{7}
-\contentsline {subsection}{\numberline {4.3}Killing Blow}{7}
-\contentsline {subsection}{\numberline {4.4}Ranged Combat}{7}
-\contentsline {subsection}{\numberline {4.5}Martial Combat}{8}
-\contentsline {paragraph}{Martial Attack Abilities:}{8}
-\contentsline {subsection}{\numberline {4.6}Stealth}{8}
-\contentsline {paragraph}{Waylay:}{8}
-\contentsline {section}{\numberline {5}Miscellaneous}{9}
-\contentsline {paragraph}{Headband Colors:}{9}
-\contentsline {paragraph}{Badge Numbers:}{9}
-\contentsline {paragraph}{Restraints:}{9}
-\contentsline {section}{\numberline {6}Closing Notes}{9}
+\contentsline {paragraph}{Battery and Mana:}{6}
+\contentsline {paragraph}{World Magi-Tech Level:}{6}
+\contentsline {subsection}{\numberline {3.1}Searching, Stashing, and Stealing}{7}
+\contentsline {paragraph}{Places:}{7}
+\contentsline {paragraph}{People:}{7}
+\contentsline {paragraph}{Bags:}{7}
+\contentsline {section}{\numberline {4}Violence, Damage, and Death}{8}
+\contentsline {subsection}{\numberline {4.1}Health States}{8}
+\contentsline {subsection}{\numberline {4.2}Weapons}{8}
+\contentsline {subsection}{\numberline {4.3}Killing Blow}{8}
+\contentsline {subsection}{\numberline {4.4}Ranged Combat}{8}
+\contentsline {subsection}{\numberline {4.5}Martial Combat}{9}
+\contentsline {paragraph}{Martial Attack Abilities:}{9}
+\contentsline {subsection}{\numberline {4.6}Stealth}{9}
+\contentsline {paragraph}{Waylay:}{9}
+\contentsline {section}{\numberline {5}Miscellaneous}{10}
+\contentsline {paragraph}{Headband Colors:}{10}
+\contentsline {paragraph}{Badge Numbers:}{10}
+\contentsline {paragraph}{Restraints:}{10}
+\contentsline {section}{\numberline {6}Closing Notes}{10}
