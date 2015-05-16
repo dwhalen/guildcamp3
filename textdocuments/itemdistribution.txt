@@ -1,0 +1,45 @@
+Machine (out by 1:00-1:30)
+ 2 pixie wings, 1 sheet of scrap metal, a werewolf fang, a phoenix feather, and a soul gem - combine in a couldron with a plumbic rod
+ tech part: circuit board, 50 ohms of resistors (either 2 25 ohms or 2 100 ohms), 3 pieces of scrap metal, a cog, and a steam turbine - use a multitool and screwdriver
+ 
+ pixie wings (2)
+  2 in lockers, one to be placed on workbench
+ scrap metal (1)
+  lots
+ werewolf fang (1)
+  1 in lockers, 4 in storage, 2 to be placed on workbench 
+ phoenix feather (1)
+  2 in lockers, 2 in storage
+ soul gem (1)
+  1 in storage 
+ circuit board (1)
+  3 in lockers, 4 on workbenches 
+ 50 ohm resistors (2 pieces)
+  7 in lockers, 4 on workbenches 
+ scrap metal (3)
+  lots 
+ cog (1)
+  3 in lockers, 4 in miscellaneous other locations 
+ steam turbine (1)
+  1 in storage 
+  
+Ingredients: (out by 2:00-2:30)
+ stardust, dragon skin, and holy water
+ tech input: blood plasma, a transistor, and graphene
+ 
+ stardust
+  3 in lockers, 7 in miscellaneous 
+ dragon skin 
+  1 in lockers, 6 in miscellaneous 
+ holy water 
+  lots 
+ blood plasma 
+  4 in storage, 2 on workbenches 
+ transistor 
+  3 in lockers, 8 in miscellaneous 
+ graphene 
+  1 in locker, 1 on workbench
+  
+ Make sure to have distributed a soul gem, steam turbine by 1:00-1:30
+ Make sure to have distributed blood plasma by 2:00 
+ 
